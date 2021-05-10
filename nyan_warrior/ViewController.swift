@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  nyan_warrior
 //
-//  Created by Александр Тютюнник on 05.05.2021.
 //
 
 import Cocoa

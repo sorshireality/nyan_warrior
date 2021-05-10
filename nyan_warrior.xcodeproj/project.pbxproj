@@ -11,6 +11,9 @@
 		F8F1C57D2642EBDA00733664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1C57C2642EBDA00733664 /* ViewController.swift */; };
 		F8F1C57F2642EBDD00733664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F1C57E2642EBDD00733664 /* Assets.xcassets */; };
 		F8F1C5822642EBDD00733664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F1C5802642EBDD00733664 /* Main.storyboard */; };
+		F8F1C58C2642EFB200733664 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1C58A2642EFB200733664 /* WindowController.swift */; };
+		F8F1C58D2642EFB200733664 /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F1C58B2642EFB200733664 /* WindowController.xib */; };
+		F8F1C58F2642F4D200733664 /* nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8F1C58E2642F4D200733664 /* nyan.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		F8F1C5812642EBDD00733664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8F1C5832642EBDD00733664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8F1C5842642EBDD00733664 /* nyan_warrior.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nyan_warrior.entitlements; sourceTree = "<group>"; };
+		F8F1C58A2642EFB200733664 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		F8F1C58B2642EFB200733664 /* WindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
+		F8F1C58E2642F4D200733664 /* nyan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nyan.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 				F8F1C57A2642EBDA00733664 /* AppDelegate.swift */,
 				F8F1C57C2642EBDA00733664 /* ViewController.swift */,
 				F8F1C57E2642EBDD00733664 /* Assets.xcassets */,
+				F8F1C58E2642F4D200733664 /* nyan.gif */,
 				F8F1C5802642EBDD00733664 /* Main.storyboard */,
+				F8F1C58A2642EFB200733664 /* WindowController.swift */,
+				F8F1C58B2642EFB200733664 /* WindowController.xib */,
 				F8F1C5832642EBDD00733664 /* Info.plist */,
 				F8F1C5842642EBDD00733664 /* nyan_warrior.entitlements */,
 			);
@@ -121,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F1C57F2642EBDD00733664 /* Assets.xcassets in Resources */,
+				F8F1C58D2642EFB200733664 /* WindowController.xib in Resources */,
+				F8F1C58F2642F4D200733664 /* nyan.gif in Resources */,
 				F8F1C5822642EBDD00733664 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F1C57D2642EBDA00733664 /* ViewController.swift in Sources */,
+				F8F1C58C2642EFB200733664 /* WindowController.swift in Sources */,
 				F8F1C57B2642EBDA00733664 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
